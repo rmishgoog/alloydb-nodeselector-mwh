@@ -12,6 +12,7 @@ tlsCertRoot: "/etc/certs"
 
 image:
   repository: rmishragcp01/pod-nodeselector-mutator-wh
+  #repository: gcr.io/rmishra-kubernetes-playground/pod-nodeselector-mutator-wh
   pullPolicy: IfNotPresent
   tag: "v1.0"
 
